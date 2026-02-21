@@ -12,6 +12,7 @@ function Color() {
     
     return (
         <>
+            <h1>neka linija</h1>
             <p style={{ color: boja2 }}>unesi boju pozadine</p>
             <input type = "color" value = {boja} onChange = {(e) => setBoja(e.target.value) } />
 
